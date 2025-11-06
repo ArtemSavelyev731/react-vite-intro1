@@ -1,9 +1,14 @@
+import logo from '/vite.svg'
+
 export default function Header() {
-    return (
+  const now = new Date()
+    
+  return (
       <header>
-        <h3>Result Unviveersiry</h3>
+        <img src={logo} alt={'Result'} />
+       {/* <h3>Result Unviveersiry</h3> */}
   
-        <span>тут будет время</span>
+        <span>Время сейчас {now.toLocaleTimeString() }</span>
       </header>
     )
   }
