@@ -9,7 +9,7 @@ export default function App() {
     <>
       <Header />
       <main>
-        <IntroSection /> 
+        <IntroSection />
         <TeachingSection />
         <DifferencesSection />
       </main>
