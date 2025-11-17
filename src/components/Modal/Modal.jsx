@@ -7,11 +7,11 @@ export default function Modal({ children, open }) {
 
     useEffect(() => {
         if (open) {
-            dialog.current.hide()
+            dialog.current.showModal()
         } else {
             dialog.current.close()
         }
-    }, [])
+    }, [open])
 
 
 
